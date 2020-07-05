@@ -1,5 +1,5 @@
 thead{
-  text-align: center; 
+  text-align: center;
   color: darkcyan;
   font-size: 35px;
   font-weight: bold;
@@ -15,5 +15,6 @@ td, th{
   border: 2px solid black;
 }
 table{
-  border: 1px solid black
+  border: 1px solid black;
+  border-collapse:collapse;
 }
