@@ -1,0 +1,27 @@
+.button{
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: black;
+  font-family: arial, sans-serif;
+}
+.button:hover{
+  background-color: red;
+}
+a[href="https://google.com"]{
+  color: orange;
+  font-size: 30px;
+  font-family: sans-serif, arial;
+  font-weight: bold;
+  background-color: black;
+}
+#links{
+  margin: 40px;
+  color: blue;
+  font-family: sans-serif, arial;
+}
+a[href="https://google.com"]:hover{
+  background-color: pink;
+}
