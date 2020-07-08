@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Test</title>
+    <link rel="stylesheet" href="test.css">
+  </head>
+  <body>
+    <div>
+      <h1 id="main_title">Comidas Colombianas</h1>
+    </div>
+    <form>
+      <div>
+        <input type="text" name="Nombre completo" placeholder="Nombre completo" class="listas">
+      </div>
+      <div>
+        <input type="text" name="Direccion" placeholder="Direccion" class="listas">
+      </div>
+      <div>
+        <h3 class="h3">Seleccion su aperitivo</h3>
+        <input list="Empanadas" name="Empanadas" placeholder="Empanadas" class="listas">
+        <datalist id="Empanadas">
+          <option value="Carne">
+          <option value="Vegana">
+          <option value="Pescado">
+          <option value="Frijol con Queso">
+        </datalist>
+        <input list="Reposteria" name="Reposteria" placeholder="Reposteria" class="listas">
+        <datalist id="Reposteria">
+          <option value="Almojabanas">
+          <option value="Pan de Queso">
+          <option value="Obleas">
+        </datalist>
+      <div class="extras">
+        <h3 class="h3">Extras</h3>
+        <input type="radio" name="Extras" value="Aji">Aji
+      </div>
+      </div>
+    </form>
+  </body>
+</html>

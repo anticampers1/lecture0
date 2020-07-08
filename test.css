@@ -1,0 +1,29 @@
+#main_title{
+  color: yellow;
+  font-size: 40px;
+  font-family: sans-serif, arial;
+  border-bottom: 3px solid yellow;
+  text-align: center;
+
+}
+.listas{
+  background-color: blue;
+  color: white;
+  font-family: sans-serif, arial;
+  margin-right: 20px;
+}
+div{
+  margin: 20px;
+}
+.h3{
+  color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif, arial;
+}
+html{
+  background-color: grey;
+}
+.extras:{
+  background-color: red;
+}
