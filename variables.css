@@ -1,0 +1,17 @@
+div > ul {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial, cursive, sans-serif;
+  color: blue;
+  padding: 10px;
+  margin: 10px; }
+
+div > ol {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: fantasy, serif;
+  color: red;
+  padding: 10px;
+  margin: 10px; }
+
+/*# sourceMappingURL=variables.css.map */
