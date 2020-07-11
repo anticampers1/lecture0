@@ -1,0 +1,20 @@
+$font-size:20px;
+$font-weight:bold
+$padding:10px;
+$margin:10px;
+div > ul{
+  font-size: $font-size;
+  font-weight: $font-weight;
+  font-family: arial, cursive, sans-serif;
+  color: blue;
+  padding: $padding;
+  margin: $margin;
+}
+div > ol{
+  font-size: $font-size;
+  font-weight: $font-weight;
+  font-family: fantasy, serif;
+  color: red;
+  padding: $padding;
+  margin: $margin;
+}
