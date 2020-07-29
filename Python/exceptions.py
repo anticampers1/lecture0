@@ -1,6 +1,16 @@
-x=int(input('x:'))
-y=int(input('y:'))
+import sys
 
-result=x/y
+try:
+    x=int(input('x:'))
+    y=int(input('y:'))
+except ValueError:
+    print('Error: Cant handle words as inputs, please input a number.')
+    sys.exit(1)
+
+try:
+    result=x/y
+except ZeroDivisionError:
+    print('Error: Cannot divide by 0.')
+    sys.exit(1)
 
 print(f'{x} divided by {y} is: {result}')
